@@ -1,0 +1,77 @@
+.Amenities {
+    padding: 3rem 0rem;
+    width: 100%;
+    background-color: white;
+}
+
+.Amenities-main {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Amenities-main h4 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #AF1740;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.Amenities-main h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1.25em;
+}
+
+.Amenities-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid #cecece;
+}
+
+.Amenities-card {
+    /* background-color: gray; */
+    padding: 3rem 2rem;
+    /* border: 1px solid gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Amenities-card p svg {
+    font-size: 60px;
+    color: #AF1740;
+}
+
+.Amenities-card span {
+    text-align: center;
+}
+.Amenities-card h5 {
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .Amenities-main {
+        max-width: 1140px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .Amenities-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 1px solid #e9eff2;
+    }
+
+}

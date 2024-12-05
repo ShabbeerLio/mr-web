@@ -1,0 +1,47 @@
+.work {
+    padding: 3rem 0rem;
+    width: 100%;
+    background-color: #b4b4b4;
+}
+
+.work-main {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.work-main h4{
+    font-size: 15px;
+    font-weight: 500;
+    color: #AF1740;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    text-align:center;
+}
+.work-main h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1.25em;
+    text-align:center;
+}
+
+.work-card{
+    margin-top: 2rem;
+}
+.work-card img {
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+}
+
+@media (min-width: 1200px) {
+    .work-main {
+        max-width: 1140px;
+    }
+}
