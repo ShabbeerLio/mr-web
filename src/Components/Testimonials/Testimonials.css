@@ -1,0 +1,36 @@
+.Testimonials{
+    padding: 3rem 0rem;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.HomeReview-boxes{
+    background-color: white;
+    margin: 10px;
+    padding: 1rem;
+}
+.author-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .author-img img {
+    width: 100%;
+  }
+  
+  .HomeReview-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .HomeReview-cont {
+    padding-left: 20px;
+  }
+  
+  .HomeReview-cont span {
+    font-size: 12px;
+    color: #AF1740;
+  }

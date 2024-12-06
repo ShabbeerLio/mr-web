@@ -1,18 +1,19 @@
-.work {
+.Steps {
     padding: 3rem 0rem;
     width: 100%;
-    background-color: #fafafa;
-    /* margin-top: 10rem; */
+    background-color: white;
 }
 
-.work-main {
+.Steps-main {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
-.work-main h4{
+
+.Steps-main h4 {
     font-size: 15px;
     font-weight: 500;
     color: #AF1740;
@@ -20,29 +21,26 @@
     position: relative;
     letter-spacing: 3px;
     margin-bottom: 5px;
-    text-align:center;
 }
-.work-main h2{
+
+.Steps-main h2 {
     font-size: 30px;
     font-weight: 600;
     color: black;
     position: relative;
     margin-bottom: 20px;
     line-height: 1.25em;
-    text-align:center;
 }
 
-.work-card{
-    margin-top: 2rem;
-}
-.work-card img {
-    width: 100%;
-    object-fit: contain;
-    aspect-ratio: 4/2;
+.Steps-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    margin-top: 3rem;
 }
 
 @media (min-width: 1200px) {
-    .work-main {
+    .Steps-main {
         max-width: 1140px;
     }
 }

@@ -1,8 +1,7 @@
 .aboutUs {
-    padding: 6rem 0rem;
+    padding: 0 0 3rem 0rem;
     width: 100%;
     background-color: #fafafa;
-    margin-top: 10rem;
 }
 
 .about-main {
@@ -35,7 +34,7 @@
 }
 
 .about-left h2 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     color: black;
     position: relative;

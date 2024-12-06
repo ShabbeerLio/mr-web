@@ -1,10 +1,10 @@
-.Amenities {
+.Industry {
     padding: 3rem 0rem;
     width: 100%;
-    background-color: white;
+    background-color: #fafafa;
 }
 
-.Amenities-main {
+.Industry-main {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -12,7 +12,7 @@
     margin-left: auto;
 }
 
-.Amenities-main h4 {
+.Industry-main h4 {
     text-align: center;
     font-size: 15px;
     font-weight: 500;
@@ -23,7 +23,7 @@
     margin-bottom: 5px;
 }
 
-.Amenities-main h2 {
+.Industry-main h2 {
     text-align: center;
     font-size: 30px;
     font-weight: 600;
@@ -33,14 +33,14 @@
     line-height: 1.25em;
 }
 
-.Amenities-box {
+.Industry-box {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     border: 1px solid #ededed;
     margin-top: 3rem;
 }
 
-.Amenities-card {
+.Industry-card {
     /* background-color: gray; */
     padding: 3rem 2rem;
     /* border: 1px solid gray; */
@@ -50,26 +50,26 @@
     flex-direction: column;
 }
 
-.Amenities-card p svg {
+.Industry-card p svg {
     font-size: 60px;
     color: #AF1740;
 }
 
-.Amenities-card span {
+.Industry-card span {
     text-align: center;
 }
-.Amenities-card h5 {
+.Industry-card h5 {
     text-align: center;
 }
 
 @media (min-width: 1200px) {
-    .Amenities-main {
+    .Industry-main {
         max-width: 1140px;
     }
 }
 
 @media only screen and (max-width: 990px) {
-    .Amenities-box {
+    .Industry-box {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         border: 1px solid #e9eff2;

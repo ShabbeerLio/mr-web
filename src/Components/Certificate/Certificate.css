@@ -1,18 +1,19 @@
-.work {
-    padding: 3rem 0rem;
+.Certificate {
+    padding: 6rem 0rem;
     width: 100%;
-    background-color: #fafafa;
-    /* margin-top: 10rem; */
+    background-color: white;
 }
 
-.work-main {
+.Certificate-main {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
-.work-main h4{
+
+.Certificate-main h4 {
+    text-align: center;
     font-size: 15px;
     font-weight: 500;
     color: #AF1740;
@@ -20,29 +21,36 @@
     position: relative;
     letter-spacing: 3px;
     margin-bottom: 5px;
-    text-align:center;
 }
-.work-main h2{
+
+.Certificate-main h2 {
+    text-align: center;
     font-size: 30px;
     font-weight: 600;
     color: black;
     position: relative;
     margin-bottom: 20px;
     line-height: 1.25em;
-    text-align:center;
 }
 
-.work-card{
-    margin-top: 2rem;
+.Certificate-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
-.work-card img {
+
+.Certificate-card img {
+    border-radius: 8px;
     width: 100%;
-    object-fit: contain;
-    aspect-ratio: 4/2;
+    object-fit: cover;
 }
 
 @media (min-width: 1200px) {
-    .work-main {
+    .Certificate-main {
         max-width: 1140px;
     }
 }
+
+@media only screen and (max-width: 990px) {}
+
+@media only screen and (max-width: 680px) {}

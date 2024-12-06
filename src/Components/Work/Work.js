@@ -23,19 +23,21 @@ const Work = () => {
       <div className="work-main">
         <h4>Techstack</h4>
         <h2>Technologies We Work With</h2>
-        <ReactOwlCarousel
-          loop={Infinity}
-          items={2}
-          autoplay={true}
-          autoplayTimeout={3000}
-          responsive={responsiveOptions}
-        >
-          {WorkData.map((item) => (
-            <div className="work-card" key={item.id}>
-              <img src={item.cover} alt="" />
-            </div>
-          ))}
-        </ReactOwlCarousel>
+        <div className="work-box">
+          <ReactOwlCarousel
+            loop={Infinity}
+            items={2}
+            autoplay={true}
+            autoplayTimeout={3000}
+            responsive={responsiveOptions}
+          >
+            {WorkData.map((item) => (
+              <div className="work-card" key={item.id}>
+                <img src={item.cover} alt="" />
+              </div>
+            ))}
+          </ReactOwlCarousel>
+        </div>
       </div>
     </div>
   );

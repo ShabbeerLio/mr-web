@@ -33,7 +33,7 @@ const WorkData = [
     },
     {
         id:9,
-        cover: require("../../Assets/Work/w9.webp")
+        cover: require("../../Assets/Work/w9.png")
     },
     {
         id:10,

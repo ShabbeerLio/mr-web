@@ -1,18 +1,19 @@
-.work {
+.Ranking {
     padding: 3rem 0rem;
     width: 100%;
-    background-color: #fafafa;
-    /* margin-top: 10rem; */
+    background-color: white;
 }
 
-.work-main {
+.Ranking-main {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
-.work-main h4{
+
+.Ranking-box h4 {
     font-size: 15px;
     font-weight: 500;
     color: #AF1740;
@@ -20,29 +21,28 @@
     position: relative;
     letter-spacing: 3px;
     margin-bottom: 5px;
-    text-align:center;
 }
-.work-main h2{
+
+.Ranking-box h2 {
     font-size: 30px;
     font-weight: 600;
     color: black;
     position: relative;
     margin-bottom: 20px;
     line-height: 1.25em;
-    text-align:center;
+    margin-bottom: 3rem;
 }
 
-.work-card{
-    margin-top: 2rem;
-}
-.work-card img {
+.Ranking-card img{
     width: 100%;
-    object-fit: contain;
-    aspect-ratio: 4/2;
+    object-fit: cover;
+    padding: 10px;
 }
 
 @media (min-width: 1200px) {
-    .work-main {
+    .Ranking-main {
         max-width: 1140px;
     }
 }
+
+@media only screen and (max-width: 680px) {}

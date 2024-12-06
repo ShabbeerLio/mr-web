@@ -60,7 +60,6 @@ const About = () => {
             </div>
             <div className="exprence">
               <p>
-                {" "}
                 <span>13+</span>
                 <br /> years <br /> Experence
               </p>

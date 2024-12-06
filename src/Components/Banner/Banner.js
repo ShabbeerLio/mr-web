@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import bnimg from "../../Assets/Banner/banner.jpg"
 import "./Banner.css"
+import BannerBtm from '../BannerBtm/BannerBtm'
 
 const Banners = (props) => {
 
